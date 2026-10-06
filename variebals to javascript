@@ -1,0 +1,29 @@
+<DOCTYPE>
+<html>
+
+<body>
+    <h1>javascript variebals</h1>
+    <h2>caculator</h2>
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="mul"></p>
+    <p id="div"></p>
+    <p id="stu"></p>
+    <script>
+        var num1 = 10;
+        var num2 = 6;
+        var sun =num1+mum2;
+        var diff = num1-num2;
+        var multiple = num1*num2;
+        var division = num1 /num2;
+        document.getElementById("add").innerhtml ="the total sum is
+        :"sun;
+        document.getElementById("the difference is:")+ diff
+        document.getElementById("mul")the multiple is: "+
+        multiple;
+        document.getElementById('div')innerhtml = the division is'+ divsion;
+        document.getElementById('stu').innerhtml ="the names of the students in this class are:saransh,Aadidsh";
+    
+    </script>
+</body>
+</html>
